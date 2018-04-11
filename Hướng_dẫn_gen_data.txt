@@ -1,0 +1,23 @@
+Link download các tập tin cần thiết:
+http://www.mediafire.com/file/msvfx9rctsvb5eq/Generate%20Data.rar
+
+Trong file rar down về bao gồm 3 folder (Generate Project, Script file và Text files.
+Trong đó,
++ Generate Project chứa các tập tin chứa sãn porject chứa các cài đặt cách generate dữ liệu (sử dụng tool SQL Data Generate của Redgate để mở)
++ Script file chứa tập tin script nguồn của database (có một số điều chỉnh để chứa dữ liệu. Khuyến khích sử dụng file này khi muốn generate data)
++ Text files chứa các tập tin dạng text. Thiếu các file text thì tool không generate được.
+
+Các bước generate dữ liệu:
+1. Dùng SQL Server Management Studio để chạy file script (trong folder Script file). Lưu ý, chỉ chạy phần create table và alter table. Không chạy các phần trigger vì một số trigger sẽ gây ra lỗi khi generate.
+(Mình đã cài đặt tool để generate dữ liệu theo đề bài. Ví dụ như đã cài đặt dữ liệu khi generate cho bảng KhachHang sẽ không có dòng nào bị trùng tenDangNhap hay email,... hoặc cho bảng HoaDon thì không bị trùng maDP,...)
+
+2. Copy các file text (trong folder Text files) vào thư mục với đường dẫn sau:
+E:\Program Files (x86)\Red Gate\SQL Data Generator 4\Config
+hoặc tuỳ vào thư mục mà bạn cài đặt tool.
+(Copy vào thư mục Config của SQL Data Generator 4)
+
+3. Sử dụng SQL Data Generate để mở 1 trong 2 file project (trong folder Generate Project). 
+Note: 
++ Sử dụng "Generate Part" để generate một phần nhỏ để test dữ liệu (hoặc kiểm tra tính đúng đắn của dữ liệu). 
++ Sử dụng "Generate Full" để generate toàn bộ các dòng dữ liệu mà đề bài yêu cầu.
++ Nhớ kết nối đến database QLKS trước khi generate dữ liệu.
