@@ -1,0 +1,17 @@
+use QLKS
+.run Table/Createtable.sql
+.run Trigger/CapNhatThanhTien.sql
+.run Trigger/CMND.sql
+.run Trigger/DatPhongMotHoaDon.sql
+.run Trigger/Email.sql
+.run Trigger/SoDienThoai.sql
+.run Trigger/TenDangNhap.sql
+.run Proc/BaoCaoDoanhThu.sql
+.run Proc/BaoCaoDoanhThuNam.sql
+.run Proc/KiemTraMaKhachHang.sql
+.run Proc/KiemTraMatKhau.sql
+.run Proc/KiemTraTrungLapNguoiDung.sql
+.run Proc/ThemHoaDon.sql
+.run Proc/ThongKePhongTrong.sql
+.run Proc/TimKiemHoaDon.sql
+.run Proc/TimKiemKhachSan.sql
