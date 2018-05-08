@@ -1,5 +1,7 @@
 use QLKS
 .run Table/Createtable.sql
+.run Table/CreateAdmin.sql
+.run Table/CreateIndex.sql
 .run Trigger/CapNhatThanhTien.sql
 .run Trigger/CMND.sql
 .run Trigger/DatPhongMotHoaDon.sql

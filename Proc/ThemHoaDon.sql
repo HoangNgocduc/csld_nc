@@ -1,4 +1,4 @@
-create procedure themHoaDon @maDP nchar(15), @maHD nchar(15)
+CREATE procedure themHoaDon @maDP nchar(15), @maHD nchar(15)
 as
     if(@maDP is not null)
 begin
