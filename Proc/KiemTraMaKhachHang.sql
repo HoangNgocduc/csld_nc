@@ -1,4 +1,4 @@
-create procedure kiemTramaKH @maKH nvarchar(15)
+create procedure kiemTramaKH @maKH bigint
 as
 if (exists (select KH.maKH
 			from KhachHang KH

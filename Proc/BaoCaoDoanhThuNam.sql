@@ -1,4 +1,4 @@
-create proc baoCaoDoanhThuNam @ngayLap int, @DoanhThu int output
+create proc baoCaoDoanhThuNam @ngayLap date, @DoanhThu int output
 as
 begin
 	

@@ -1,4 +1,4 @@
-create procedure kiemtraMatKhau @User nvarchar(50), @Pass varchar(100)
+create procedure kiemtraMatKhau @User bigint, @Pass varchar(100)
 as
 	declare @check int;
 	exec @check = CheckExistUser @User
