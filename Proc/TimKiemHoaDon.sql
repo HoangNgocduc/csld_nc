@@ -1,4 +1,4 @@
-create proc timkiemHoaDon @maHoaDon nchar(15),@ngayLap date,
+create proc timkiemHoaDon @maHoaDon char(30),@ngayLap date,
 @tongTien money
 as 
 begin

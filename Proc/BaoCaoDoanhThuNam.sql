@@ -4,5 +4,5 @@ begin
 	
 	select @DoanhThu=sum(tongTien)
 	from HoaDon
-	where year(ngayThanhToan)=@ngayLap
+	where year(ngayThanhToan)=year(@ngayLap)
 end
