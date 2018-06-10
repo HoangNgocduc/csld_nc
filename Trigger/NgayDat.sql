@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgNgayDat
 	ON DatPhong
 	FOR INSERT ,UPDATE 

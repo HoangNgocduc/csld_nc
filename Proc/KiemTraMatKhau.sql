@@ -1,3 +1,5 @@
+use QLKS
+go
 create procedure kiemtraMatKhau @User bigint, @Pass varchar(100)
 as
 	declare @check int;

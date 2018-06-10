@@ -1,3 +1,5 @@
+use QLKS
+go
 create procedure kiemtraLapNguoiDung @User nvarchar(50)
 as
 	if (exists (select *

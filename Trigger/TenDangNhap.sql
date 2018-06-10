@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgTenDangNhap
 ON  KhachHang
 FOR INSERT,UPDATE 

@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgEmail
 ON KhachHang
 FOR INSERT, UPDATE 

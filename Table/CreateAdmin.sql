@@ -1,3 +1,4 @@
+use QLKS
 Create table QuanTri
 		(
             tenDangNhap nvarchar(30),

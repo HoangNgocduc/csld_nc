@@ -1,3 +1,5 @@
+use QLKS
+go
 create proc baoCaoDoanhThuNam @ngayLap date, @DoanhThu int output
 as
 begin

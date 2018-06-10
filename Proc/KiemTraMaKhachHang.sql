@@ -1,3 +1,5 @@
+use QLKS
+go
 create procedure kiemTramaKH @maKH bigint
 as
 if (exists (select KH.maKH

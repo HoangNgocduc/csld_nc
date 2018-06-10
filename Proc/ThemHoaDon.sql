@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE procedure themHoaDon @maDP char(30), @maHD char(30)
 as
     if(@maDP is not null)

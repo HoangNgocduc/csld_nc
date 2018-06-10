@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE PROCEDURE TimKhachSan
     @tenKS nvarchar(50),
     @duong nvarchar(30),

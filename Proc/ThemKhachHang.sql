@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE PROCEDURE ThemKhachHang 
         @maKH bigint,
 		@hoTen nvarchar(30),

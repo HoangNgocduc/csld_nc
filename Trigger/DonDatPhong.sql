@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgDonDatPhong
 ON HoaDon
 FOR INSERT 

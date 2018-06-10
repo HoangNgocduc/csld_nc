@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgCapNhatThanhTien
 ON HoaDon
 FOR  INSERT,update

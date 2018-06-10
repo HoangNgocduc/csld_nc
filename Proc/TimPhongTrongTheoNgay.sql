@@ -1,3 +1,6 @@
+
+use QLKS
+go
 CREATE PROCEDURE TimPhongTrongTheoNgay @start DATE, @end DATE, @loaiPhong char(30)
 AS
     IF (

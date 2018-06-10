@@ -1,3 +1,4 @@
+use QLKS
 CREATE index KhachHang_DN
 ON KhachHang(tenDangNhap,matKhau)
 

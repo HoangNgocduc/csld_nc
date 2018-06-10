@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgSoCMND
 ON KhachHang
 FOR INSERT, UPDATE 

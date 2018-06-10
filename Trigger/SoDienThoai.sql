@@ -1,3 +1,5 @@
+use QLKS
+go
 CREATE TRIGGER trgSDT
 ON KhachHang
 FOR INSERT,UPDATE 
