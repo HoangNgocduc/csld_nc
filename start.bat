@@ -10,6 +10,8 @@ sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Trigge
 sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Trigger\NgayDat.sql
 sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Trigger\SoDienThoai.sql
 sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Trigger\TenDangNhap.sql
+sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Proc\DatPhong.sql
+sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Proc\TimKiemHoaDonTheoNgay.sql
 sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Proc\BaoCaoDoanhThu.sql
 sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Proc\BaoCaoDoanhThuNam.sql
 sqlcmd -E -S (localdb)\QLKS -i C:\Users\root\Desktop\Tony\CSDL\db\csld_nc\Proc\ThemHoaDon.sql
