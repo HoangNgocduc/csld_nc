@@ -8,11 +8,16 @@ AS
         @end is not null
     ) BEGIN
         SELECT * FROM Phong p WHERE
-        LoaiPhong = @loaiPhong AND
+        LoaiPhong = @loaiPhong AND (
         (
-            SELECT tinhTrang from TrangThaiPhong WHERE
+            SELECT count(*) as SoLuongTrong from TrangThaiPhong WHERE
             ngay <= @end AND
             ngay >= @start AND
             maPhong = p.maPhong
-        ) = N'Trống'
+        ) < p.soPhong OR NOT EXISTS (
+            SELECT * FROM TrangThaiPhong WHERE
+            ngay <= @end AND
+            ngay >= @start AND
+            maPhong = p.maPhong
+        ))
     END
